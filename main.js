@@ -1,9 +1,6 @@
-let a =5;
-let b="";
-for (i=1;i<=a;i++) {
+for (i=1;i<=5;i++) {
    for (j=1;j<=i;j++) {
-      b+=i;
+      document.write(i);
    }
-   b+="\n";
+   document.write("<br>");
 }
-console.log(b);
